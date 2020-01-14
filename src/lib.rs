@@ -15,7 +15,6 @@
 use frame_support::{decl_module, decl_storage, decl_event, dispatch::DispatchResult};
 use system::ensure_signed;
 
-/// The pallet's configuration trait.
 pub trait Trait: system::Trait {
 	// TODO: Add other types and constants required configure this pallet.
 
